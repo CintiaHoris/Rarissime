@@ -1,0 +1,251 @@
+* {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* --------------------NAV-------------------- */
+
+#inicio {
+    width: 30px;
+}
+
+#rarissime {
+    margin-left: 12%;
+    font-size: 35px;
+    font-family: 'Yellowtail', cursive;
+}
+
+#quienesomos {
+    margin-right: 100px;
+}
+
+#prendas {
+    padding-left: -10px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-toggler {
+    width: 50px;
+    margin-left: 90%;
+    margin-top: -60px;
+    padding: 2px 6px;
+}
+
+
+/* --------------------------------------- */
+
+
+/* -------------------CAROUSEL----------------- */
+
+.Boton1 {
+    position: relative;
+    padding-top: 41%;
+    padding-left: 38%;
+}
+
+#button {
+    width: 40%;
+    background-color: #D83E06;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/*-----------------DESCUENTO LENTES-----------------------*/
+
+#raro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row {
+    position: absolute;
+    width: 100%;
+}
+
+.sale {
+    position: relative;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.sale>img {
+    width: 12%;
+    height: 12%;
+}
+
+.descuento {
+    position: relative;
+    padding-left: 21%;
+    padding-right: 21%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.descuento>a>img {
+    width: 35%;
+    height: 35%;
+}
+
+
+/*------------------------------------------------------*/
+
+.imgytexto {
+    display: flex;
+}
+
+
+/*-----------------CAROUSEL PRODUCTOS ----------------*/
+
+.carouselProductos {
+    display: flex;
+}
+
+.contenedorCard {
+    display: flex;
+}
+
+#botonComprar {
+    background-color: #D83E06;
+    color: white;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/* ------------------DEFINICION---------------------- */
+
+.imglentes {
+    height: 150px;
+    width: 600px;
+}
+
+#definicionraro {
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+#definicionraro h1 {
+    font-size: 10vw;
+}
+
+#definicionraro p {
+    font-size: 2vw;
+}
+
+
+/* ---------------------MEDIA--------------------- */
+
+@media (max-width: 643px) {
+    .Boton1 {
+        display: none;
+    }
+}
+
+@media (max-width: 886px) {
+    .card-title,
+    .card-text {
+        display: none;
+    }
+}
+
+@media (max-width: 763px) {
+    #botonComprar {
+        font-size: 15px;
+    }
+    div.card-body {
+        padding: 0;
+    }
+}
+
+@media(max-width: 446px) {
+    #botonComprar {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 332px) {
+    #botonComprar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+
+/*------------------FOOTER-------------------*/
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    margin-top: 10%;
+}
+
+.foot1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.p1 {
+    margin-bottom: 0;
+}
+
+.p2 {
+    margin-bottom: 12px;
+}
+
+.titulof1 {
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+input {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.enlaces a {
+    padding-left: 2%;
+    color: white;
+}
+
+.enlaces {
+    padding-top: 3%;
+}
+
+.copyright {
+    padding-top: 3%;
+}
+
+.flecha {
+    width: 1%;
+    padding-bottom: 5px;
+}
+
+.iconos>a>img {
+    padding-top: 50px;
+    width: 30px;
+}
